@@ -8,21 +8,19 @@ import Typography from '@material-ui/core/Typography';
 const styles = {
   root: {
     flexGrow: 1,
+    marginBottom: '30px',
   },
   flex: {
     flex: 1,
   },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
-  },
+
 };
 
 function Bar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="primary">
+      <AppBar position="static" color="secondary">
         <Toolbar>
           <Typography variant="title" color="inherit">
             Todos

@@ -8,7 +8,7 @@ import Bar from './template/bar';
 class App extends Component {
   render() {
     return (
-      <div style={{flexGrow: 1, margin: '0 2px', transform: 'scale(0.8)'}} >
+      <div style={{flexGrow: 1, margin: '0 10px', transform: 'scale(0.8)'}} >
         <Bar />
         <Todo />
       </div>
