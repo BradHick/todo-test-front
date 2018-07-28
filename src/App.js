@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import './template/custom.css';
 import './App.css';
 
 import Todo from './todo/todo';
